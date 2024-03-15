@@ -1,0 +1,94 @@
+.card {
+  margin-bottom: 20px;
+}
+
+.btn-group-vertical {
+  width: 100%;
+  align-content: center;
+}
+
+span {
+  display: inline-block; /* O display: inline; */
+  /* Otros estilos según tus necesidades */
+}
+
+/* Estilos para el contenido principal */
+.user-avatar-container {
+  width: 100%;
+  text-align: center;
+}
+
+.user-avatar-container img {
+  max-width: 30%;
+  height: auto;
+  margin-bottom:20px;
+}
+
+/* Estilos para las tablas */
+.table {
+  width: 100%;
+  margin-bottom: 1rem;
+  color: #212529;
+}
+
+.table th,
+.table td {
+  padding: 0.75rem;
+  vertical-align: top;
+  border-top: 1px solid #dee2e6;
+}
+
+.table thead th {
+  vertical-align: bottom;
+  border-bottom: 2px solid #dee2e6;
+}
+
+.table tbody+tbody {
+  border-top: 2px solid #dee2e6;
+}
+
+.table-sm th,
+.table-sm td {
+  padding: 0.3rem;
+}
+
+.table-bordered {
+  border: 1px solid #dee2e6;
+}
+
+.table-bordered th,
+.table-bordered td {
+  border: 1px solid #dee2e6;
+}
+
+.table-bordered thead th,
+.table-bordered thead td {
+  border-bottom-width: 2px;
+}
+
+.table-striped tbody tr:nth-of-type(odd) {
+  background-color: rgba(0, 0, 0, 0.05);
+}
+
+.table-hover tbody tr:hover {
+  background-color: rgba(0, 0, 0, 0.075);
+}
+
+/* Estilos para los botones en la tabla */
+button[type="submit"],
+.btn {
+  cursor: pointer;
+}
+
+
+.btn-primary {
+  color: #fff;
+  background-color: #007bff;
+  border-color: #007bff;
+}
+
+.btn-primary:hover {
+  color: #fff;
+  background-color: #0069d9;
+  border-color: #0062cc;
+}

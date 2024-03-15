@@ -1,0 +1,87 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container-fluid {
+    padding-top: 60px; 
+}
+
+.card {
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-title {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.card-body p {
+    margin-bottom: 5px;
+}
+
+.user-avatar-container {
+    width: fit-content;
+    margin: auto;
+    position: relative;
+    text-align: center;
+}
+
+.user-avatar-container img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    display: block;
+    margin: auto;
+}
+
+.user-avatar-container button {
+    position: absolute;
+    bottom: 5px;
+    left: 50%;
+    transform: translateX(-50%);
+    visibility: hidden;
+}
+
+.user-avatar-container:hover button {
+    visibility: visible;
+}
+
+.sidebar {
+    background-color: #fff;
+    padding: 20px;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.sidebar li {
+    margin-bottom: 10px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.sidebar li:hover {
+    background-color: #f0f0f0;
+}
+
+.navbar {
+    background-color:dodgerblue;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand p {
+    margin-bottom: 0;
+}
+
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #f8f9fa; /* Color de fondo del pie de página */
+}

@@ -1,0 +1,37 @@
+.cuadrado {
+    background-color: #f0f7ff; /* Color de fondo celeste */
+    padding: 30px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+/* Estilos específicos para el texto y campos de entrada */
+.card-title {
+    font-size: 40px;
+    color: black; /* Texto en negro */
+}
+
+.form-control {
+    border: none; /* Elimina los bordes de los campos de entrada */
+    background-color: #fff; /* Fondo blanco para los campos de entrada */
+    color: #000; /* Texto en negro */
+    font-size: 20px;
+}
+
+.btn {
+    font-size: 10px; /* Tamaño del texto */
+    padding: 8px 16px; /* Espaciado del botón */
+    background-color: #0096c7;
+    color: white; /* Color del texto en botones */
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out; /* Transición suave */
+    border: none; /* Elimina el borde */
+}
+
+/* Efecto hover */
+.btn:hover {
+    background-color: #0077b6; /* Cambio de color al pasar el mouse */
+}
+
+.mensajeExito {
+    border: none; /* Elimina el borde del mensaje de éxito */
+}
